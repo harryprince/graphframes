@@ -1,4 +1,4 @@
-spark_dependencies <- function(spark_version, scala_version, graphframes_version = "0.5.0",...) {  
+spark_dependencies <- function(spark_version, scala_version, graphframes_version = "0.6.0",...) {  
   spark_dependency(
     jars = NULL,
     packages = c(
